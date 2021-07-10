@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My code starts here */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(252, 248, 243);
+}
+
+img {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+    display: inline;
+}
+
+section{
+    width:500px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    /* border: solid red; */
+}
+
+div {
+    width: 420px;
+    
+    background-color: white;
+    border: lightgray 1px solid;
+    border-radius: 3px;
+}
+
+div:last-child{
+    border: none;
+}
+
+button {
+    vertical-align: baseline;
+    padding: 20px 20px;
+    width: 135px;
+}
+
+/* work on 3 main divs: */
+.imgFrame{    
+    padding: 20px 10px 20px 10px;
+
+}
+
+.scoreboard {
+    padding: 20px 10px 20px 10px;
+    line-height: 2rem;
+}
+
+.buttonRow {
+    border: none;
+    display: flexbox;
+    align-items: center;
+}
+
+/* classes detailed design */
+.highlight {
+    font-weight: 700;
+}
