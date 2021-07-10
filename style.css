@@ -92,7 +92,11 @@ div:last-child{
 button {
     vertical-align: baseline;
     padding: 20px 20px;
-    width: 135px;
+    width: 29%;
+    border: solid gray 1px;
+    border-radius: 3px;
+    display: flexbox;
+    align-items: center;
 }
 
 /* work on 3 main divs: */
@@ -107,12 +111,25 @@ button {
 }
 
 .buttonRow {
+    box-sizing: border-box;
+    width: 100%;
     border: none;
-    display: flexbox;
-    align-items: center;
+    background-color: rgb(252, 248, 243);
 }
 
 /* classes detailed design */
 .highlight {
     font-weight: 700;
+}
+
+#player1 {
+    background-color: #06d6a0;
+}
+
+#player2 {
+    background-color: #118ab2;
+}
+
+#reset {
+    background-color: #ef476f;
 }

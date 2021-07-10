@@ -17,8 +17,8 @@ player1Btn.addEventListener("click", e => {
         // console.log("player 1 win!")
         player1Btn.disabled = true;
         player2Btn.disabled = true;
-        player1Score.style.color = "green";
-        player2Score.style.color = "red";
+        player1Score.style.color = "#06d6a0";
+        player2Score.style.color = "#ef476f";
     }
 })
 
@@ -29,8 +29,8 @@ player2Btn.addEventListener("click", e => {
         // console.log("player 2 win!")
         player1Btn.disabled = true;
         player2Btn.disabled = true;
-        player2Score.style.color = "green";
-        player1Score.style.color = "red";
+        player2Score.style.color = "#06d6a0";
+        player1Score.style.color = "#ef476f";
     }
 })
 
