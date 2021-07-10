@@ -55,13 +55,15 @@ body {
 }
 
 img {
-    width: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    margin:auto;
 }
 
 h1 {
     font-size: 1rem;
+    padding-top: 10px;
 }
 
 h2 {
@@ -70,6 +72,7 @@ h2 {
 }
 
 section{
+    margin: 30px auto;
     width:500px;
     display: flexbox;
     align-items: center;
@@ -90,10 +93,11 @@ div:last-child{
 }
 
 button {
+    color: white;
     vertical-align: baseline;
     padding: 20px 20px;
     width: 29%;
-    border: solid gray 1px;
+    border: solid lightgray 1px;
     border-radius: 3px;
     display: flexbox;
     align-items: center;
@@ -101,8 +105,7 @@ button {
 
 /* work on 3 main divs: */
 .imgFrame{    
-    padding: 20px 10px 20px 10px;
-
+    padding: 10px 10px 20px 10px;
 }
 
 .scoreboard {
@@ -126,10 +129,36 @@ button {
     background-color: #06d6a0;
 }
 
+#player1:active {
+    background-color: #06d69e85;
+}
+
+#player1:disabled {
+    background-color: #06d69e63;
+}
+
 #player2 {
     background-color: #118ab2;
 }
 
+#player2:active {
+    background-color: #118ab288;
+}
+
+#player2:disabled {
+    background-color: #118ab259;
+}
+
+
 #reset {
     background-color: #ef476f;
+}
+
+#reset:active {
+    background-color: #ef476e98;
+}
+
+#winnerScore {
+    border-radius: 10px;
+    padding-left: 10px;
 }
